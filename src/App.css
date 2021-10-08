@@ -34,8 +34,22 @@ address{
     padding: 20px 0px;
     margin: 0px;
 }
-.navbar-brand{
+.navbar-brand {
     color: floralwhite;
+}
+@media (max-width: 768px) {
+    .navbar {
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 2;
+    }
+    .jumbotron {
+        margin-top: 58px;
+    }
 }
 .page-enter{
     opacity:0.01;
